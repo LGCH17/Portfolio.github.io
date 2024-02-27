@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu with Sections</title>
+    <style>
+        /* Style for the navigation menu */
+        nav {
+            background-color: #0e980a;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        nav a:hover {
+            background-color: #111;
+        }
+
+        /* Active/current link */
+        .active {
+            background-color: #4CAF50;
+        }
+
+        /* Style for section headings */
+        h2 {
+            color: #333;
+        }
+
+        /* Style for section descriptions */
+        p {
+            color: #666;
+        }
+
+        /* Style for list of projects */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav>
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+</nav>
+
+<!-- Page Content -->
+<div style="padding:20px">
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Hi there! Good to see you.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Get ready to unlock a world of possibilities.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Check out our latest projects. Chooseone.</p>
+        <ul>
+            <li>Afrobeats</li>
+            <li>Rema and Gomez</li>
+            <li>Why is Calm Down so popular?</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
